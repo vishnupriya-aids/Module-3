@@ -10,8 +10,9 @@ To write a Python program that checks if the element `'n'` and the element `8` e
 4. Print the results.
 
 ## 🧾 Program
-Add code here
+t = tuple(input("Enter elements separated by space: ").split()) t = tuple(int(x) if x.isdigit() else x for x in t) print("'n' exists in tuple:", 'n' in t) print("8 exists in tuple:", 8 in t)
 
 ## Output
-
+Enter elements separated by space: a n 5 8 x 'n' exists in tuple: True 8 exists in tuple: True
 ## Result
+The program executed successfully and checked whether the elements 'n' and 8 exist in the given tuple using membership operators.
